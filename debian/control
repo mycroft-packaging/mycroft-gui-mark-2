@@ -1,0 +1,25 @@
+Source: mycroft-gui-mark-2
+Section: kde
+Priority: optional
+Maintainer: KDE neon <neon@kde.org>
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules,
+               kio-dev,
+               libkf5i18n-dev,
+               libkf5notifications-dev,
+               libkf5plasma-dev,
+               pkg-config,
+               pkg-kde-tools,
+               qtbase5-dev,
+               qtdeclarative5-dev,
+               qtwebengine5-dev
+Standards-Version: 3.9.8
+
+Package: mycroft-gui-mark-2
+Architecture: any
+Depends: plasma-workspace,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Mycroft Ai Mark-II containment
+ Plasma Shell components specific for the Mark 2 device.

@@ -1,0 +1,5 @@
+mycroft-gui-mark-2 (1.0) bionic; urgency=medium
+
+  * Initial packaging for mycroft-gui-mark-2
+
+ -- Bhushan Shah <bshah@kde.org>  Wed, 15 Mar 2017 11:27:03 +0000
