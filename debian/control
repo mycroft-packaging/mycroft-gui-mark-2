@@ -11,9 +11,9 @@ Build-Depends: cmake,
                libkf5plasma-dev,
                pkg-config,
                pkg-kde-tools,
+               plasma-workspace-dev,
                qtbase5-dev,
-               qtdeclarative5-dev,
-               qtwebengine5-dev
+               qtdeclarative5-dev
 Standards-Version: 3.9.8
 
 Package: mycroft-gui-mark-2
