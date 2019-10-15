@@ -14,6 +14,7 @@ Build-Depends: cmake,
                plasma-workspace-dev,
                qtbase5-dev,
                qtdeclarative5-dev
+               qml-module-qtqml-statemachine
 Standards-Version: 3.9.8
 
 Package: mycroft-gui-mark-2
